@@ -1,11 +1,10 @@
-// The querySelector() method returns the first element that matches a CSS selector
+// The querySelector() method returns the first element within the document that will match the specified selector
 const playerText = document.querySelector("#player-text");
 const computerText = document.querySelector("#computer-text");
 const resultText = document.querySelector("#result-text");
 
 // The querySelectorAll() method returns all matches (not only the first)
 const buttons = document.querySelectorAll(".choice-btn");
-
 
 let player; // To display the player's choice
 let computer; // To display the computer's random choice
@@ -47,7 +46,7 @@ function whoWon() {
 
 /* 
 Using forEach() method to iterate over all buttons
-addEventListener will cause the conditions in the curly braces when a butoon is clicked:
+addEventListener will cause the conditions in the curly braces when a button is clicked:
 	Displays text inside button that is pressed
 	Runs the computer's turn using the switch statements to choose at random
 	Displays the choices of each player

@@ -34,13 +34,13 @@ function whoWon() {
 		return "Draw!";
 	}
 	else if(computer === "ROCK") {
-		return (player === "PAPER") ? "You Win!" : "You Lose!";
+		return player === "PAPER" ? "You Win!" : "You Lose!";
 	}
 	else if(computer === "PAPER") {
-		return (player === "SCISSORS") ? "You Win!" : "You Lose!";
+		return player === "SCISSORS" ? "You Win!" : "You Lose!";
 	}
 	else if(computer === "SCISSORS") {
-		return (player === "ROCK") ? "You Win!" : "You Lose!";
+		return player === "ROCK" ? "You Win!" : "You Lose!";
 	}
 }
 
